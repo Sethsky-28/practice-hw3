@@ -299,14 +299,28 @@ button {
     background: var(--white);
     width: 1440px;
     height: 72px;
-    flex-shrink: 0;    
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo {
+    margin: 24px 0px 0px 24px;
+    display: inline-flex;
+    height: 24px;
+    align-items: center;
+    flex-shrink: 0;
 }
 
 .nav-item {
-    display: inline-block;
+    display: inline-flex;
+    align-items: flex-start;
+    margin: 24px 0px 0px 24px;
+    gap: 40px; 
 }   
 .address-item {
-    display: inline-block;
+    display: inline-flex;
 }
 
         
