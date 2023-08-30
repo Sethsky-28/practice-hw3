@@ -291,6 +291,37 @@ button {
 
 }
 
+.container {
+    width: 1158px;     
+}
+.container-header {
+    border-bottom: 1px solid var(--cornflower);
+    background: var(--white);
+    width: 1440px;
+    height: 72px;
+    flex-shrink: 0;    
+}
 
+.nav-item {
+    display: inline-block;
+}   
+.address-item {
+    display: inline-block;
+}
+
+        
+
+
+
+
+
+
+
+
+
+
+
+    
+    
 
 
