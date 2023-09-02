@@ -7,6 +7,8 @@
 body {
     
     font-family: 'Roboto', sans-serif;
+    height: 2592px;
+    width: 1440px;
        
 }
 
@@ -127,9 +129,6 @@ button {
     justify-content: center;
     margin: 0;
     height: 120px;
-    
-   
-
 }      
 
 .hero-button {
@@ -140,10 +139,10 @@ button {
     border-radius: 4px;
     background-color: var(--iris);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    display: inline-flex;
+    display: inline-block;
     padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
+    /* align-items: flex-start; */
+    /* gap: 10px; */
    
 }
 
@@ -305,68 +304,60 @@ button {
 
 }
 
-/* .container-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 1440px;
-    height: 2592px;
-    background-color: #ffffff;
-} */
-
 .header {
     align-items: center;
     background-color: #ffffff;
     border: solid 0.1rem #e7e9fc;
     box-sizing: border-box;
-    display: flex;
+    height: 72px;
+    width: 1440px;
+    display: inline-flex;
+    flex-direction: row;
     flex-shrink: 0;
-    height: 7.2rem;
-    padding: 2.4rem 15.6rem;
-    width: 100%;
+  
 }
 
+.nav {
+    display: flex;
+
+    
+} 
 .nav-logo {
     align-items:center;
-        display:flex;
-        flex-shrink:0;
-        height:calc(100% - 0.3rem);
-        margin:0.15rem 7.7rem 0.15rem 0rem;
+    display: flex;
+    flex-shrink:0;
+    height:calc(100% - 0.3rem);
+    margin-left: 156px;
 }
 
 
 .nav-list {
-    align-items: center;
+   
     display: flex;
     flex-shrink: 0;
     height: 100%;
-    margin-right: 33.2rem;
-}   
-
-/* .address-list {
-    display: inline-flex;
-    padding: 0 px 24px 0px 16px;
-    margin: 0;
+    margin-left: 76px;
     gap: 40px;
-    align-items: center;
-    align-items: flex-start;
-    flex-shrink: 0;
-} */ */
+    }
 
-.address-item-email {
+.address-list {
+    display: flex;
+    /* margin: 24px 327px 24px 940px; */
+    /* margin-right: 156px; */
+    /* margin right: 156px; */
+    gap: 40px;
+    
+   
+}
+
+/* .address-item-email {
     flex-shrink: 0;
+     */
+} 
+/* .address-item-tel {
+    /* flex-shrink: 0; */
     margin-right: 4rem;
-    white-space: nowrap;
-    /* display: flex; */
-    /* padding: 24px 347px 24px 940px; */
-}
-
-.address-item-tel {
-    flex-shrink: 0;
-    white-space: nowrap;
-    /* display: flex; */
-    /* padding: 24px 156px 24px 1133px; */
-}
+} */
 
 .container-features: {
     width: 1128px;
@@ -375,25 +366,22 @@ button {
 }
 
 .features-item-title {
-    margin-bottom:
-            4.8rem;
-        max-width:
-            49.6rem;
-        text-align:
-            center;
+    text-align: center;
 }
 
-
-
-
-
-
+.section-hero,
 .section-features,
 .section-services,
 .section-team {
     padding: 120px 0px;
 
 }
+
+.container header {
+    width: 1440px;
+    height:600px;
+}
+
 
 
 
